@@ -1,0 +1,29 @@
+{
+  "name": "first-app",
+  "version": "0.1.0",
+  "private": true,
+  "email": "bijoyalfred1983@gmail.com",
+  "homepage": "http://bijoyalfredrocks.github.io/first-app",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.0",
+    "react-scripts": "^2.0.4"
+  },
+  "scripts": {
+    "start":  "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
